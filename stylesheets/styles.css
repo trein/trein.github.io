@@ -139,18 +139,22 @@ header ul a {
 }
 
 header .links {
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-top:40px;
+  margin-bottom:40px;
 }
 
-header links p {
-  margin:0;
+header .links a, header .links a:hover {
   color:#999;
 }
 
+header .links p {
+  margin:0;
+  line-height:2em;
+}
+
 header .navigation {
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-top:40px;
+  margin-bottom:40px;
 }
 
 header .navigation p {
