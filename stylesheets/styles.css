@@ -140,6 +140,7 @@ header ul a {
 
 header .navigation p {
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 strong {
