@@ -138,9 +138,23 @@ header ul a {
   height:40px;
 }
 
+header links {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+header links a {
+  color:#999;  
+}
+
+header .navigation {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
 header .navigation p {
-  text-transform: uppercase;
-  font-weight: bold;
+  text-transform:uppercase;
+  font-weight:bold;
 }
 
 strong {
