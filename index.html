@@ -1,38 +1,69 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>William Trein | Software Engineer</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>William Trein</h1>
-        <p>M.Sc. Computer Science Applied Computing</p>
-        
-        <ul>
-          <li><i class="fa fa-linkedin"></i> <a href="http://ca.linkedin.com/in/trein">linkedin.com</a></li>
-          <li><i class="fa fa-stack-overflow"></i> <a href="http://stackoverflow.com/users/766328/trein">stackoverflow.com</a></li>
-          <li><i class="fa fa-github"></i> <a href="https://github.com/trein">github.com</a></li>
-        </ul>
-      </header>
-      <section>
-        <h2>
-<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h2>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>William Trein | Software Engineer</title>
+<link rel="stylesheet" href="stylesheets/styles.css">
+<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="wrapper">
+<header>
+<h1>William Trein</h1>
+<p>M.Sc. Computer Science Applied Computing</p>
+    
+<ul>
+<li><i class="fa fa-linkedin"></i> <a href="http://ca.linkedin.com/in/trein">linkedin.com</a></li>
+<li><i class="fa fa-stack-overflow"></i> <a href="http://stackoverflow.com/users/766328/trein">stackoverflow.com</a></li>
+<li><i class="fa fa-github"></i> <a href="https://github.com/trein">github.com</a></li>
+</ul>
+
+<div class="navigation">
+<ul>
+<li><a href="#" onclick="show('about')">About</a></li>
+<li><a href="#" onclick="show('education')">Background</a></li>
+<li><a href="#" onclick="show('projects')">Main Projects</a></li>
+<li><a href="#" onclick="show('work')">Experiences</a></li>
+<li><a href="#" onclick="show('tech')">Tech Expertise</a></li>
+</ul>
+
+</div>
+
+</header>
+
+<script>
+function show(componentId) {
+  var elements = document.getElementsByClassName('toogle');
+  for (var i = 0; i < elements.length; ++i) {
+    var item = elements[i];
+    item.style.display = 'none';
+  }
+  var e = document.getElementById(componentId);
+  if (e.style.display == 'block') {
+    e.style.display = 'none';
+  } else {
+    e.style.display = 'block';
+  }
+}
+</script>
+
+<section>
+
+<div id="about">
+<h2><a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h2>
 <p>I’m a M.Sc. Applied Computing student at the University of Toronto mainly interested in large and scalable systems. While here, I'm trying to focus my studies on different areas of artificial intelligence, cloud computing and mobile and pervasive computing. Previously, I completed a double-degree program in Computer Engineering from Universidade Federal do Rio Grande do Sul (Brazil) and Ecole Central Paris (France).</p>
+</div>
 
-<h2>
-<a name="education" class="anchor" href="#education"><span class="octicon octicon-link"></span></a>Education</h2>
+<h2><a name="education" class="anchor" href="#education"><span class="octicon octicon-link"></span></a>Education</h2>
 
 <h4>
 <a name="master-of-science-applied-computing" class="anchor" href="#master-of-science-applied-computing"><span class="octicon octicon-link"></span></a>Master of Science Applied Computing</h4>
