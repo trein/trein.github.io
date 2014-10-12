@@ -138,13 +138,14 @@ header ul a {
   height:40px;
 }
 
-header links {
+header .links {
   margin-top:20px;
   margin-bottom:20px;
 }
 
-header links a {
-  color:#999;  
+header links p {
+  margin:0;
+  color:#999;
 }
 
 header .navigation {
