@@ -203,12 +203,15 @@ try {
 </script>
 
 <script>
-function show(componentId) {
+function hideAll() {
     var elements = document.getElementsByClassName('toogle');
     for (var i = 0; i < elements.length; ++i) {
         var item = elements[i];
         item.style.display = 'none';
     }
+}
+function show(componentId) {
+    hideAll();
     var e = document.getElementById(componentId);
     if (e.style.display == 'block') {
         e.style.display = 'none';
@@ -216,6 +219,7 @@ function show(componentId) {
         e.style.display = 'block';
     }
 }
+show("about");
 </script>
 
 </body>
